@@ -1,0 +1,45 @@
+.flex {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.fg-1 {
+    flex-grow: 1;
+}
+
+.fg-2 {
+    flex-grow: 2;
+}
+
+.fg-3 {
+    flex-grow: 3;
+}
+
+.fg-4 {
+    flex-grow: 4;
+}
+
+.fg-5 {
+    flex-grow: 5;
+}
+
+.fg-6 {
+    flex-grow: 6;
+}
+
+.fg-7 {
+    flex-grow: 7;
+}
+
+.fg-8 {
+    flex-grow: 8;
+}
+
+.dfa_logo {
+    background: url('/assets/fonts_and_logo/logo-TrainingOnline-DA-400x200.png') center center;
+    background-repeat: no-repeat;
+}
+
+.height-100 {
+    height: 100%;
+}

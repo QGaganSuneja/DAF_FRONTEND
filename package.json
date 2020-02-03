@@ -1,0 +1,46 @@
+{
+	"name": "dfa_traning_frontend",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "webpack-dev-server --open --hot --mode development ",
+		"build": "webpack",
+		"build:prod": "webpack -p && cp src/index.html dist/index.html"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^0.19.0",
+		"react": "^16.12.0",
+		"react-dom": "^16.12.0",
+		"react-redux": "^7.1.3",
+		"react-router-dom": "^5.1.2",
+		"redux": "^4.0.5",
+		"redux-devtools-extension": "^2.13.8",
+		"redux-thunk": "^2.3.0",
+		"video-react": "^0.14.1"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.7.2",
+		"@babel/preset-env": "^7.7.1",
+		"@babel/preset-react": "^7.7.0",
+		"@babel/preset-stage-2": "^7.0.0",
+		"babel-core": "^6.26.3",
+		"babel-loader": "^8.0.6",
+		"babel-preset-env": "^1.7.0",
+		"copy-webpack-plugin": "^5.0.5",
+		"css-loader": "^3.2.0",
+		"extract-text-webpack-plugin": "^3.0.2",
+		"file-loader": "^5.0.2",
+		"html-loader": "^0.5.5",
+		"html-webpack-plugin": "^3.2.0",
+		"mini-css-extract-plugin": "^0.9.0",
+		"node-sass": "^4.13.0",
+		"sass-loader": "^8.0.0",
+		"style-loader": "^1.1.3",
+		"webpack": "^4.41.2",
+		"webpack-cli": "^3.3.10",
+		"webpack-dev-server": "^3.9.0"
+	}
+}

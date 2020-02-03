@@ -1,0 +1,83 @@
+.login-img1 {
+	height: 100%;
+	flex-grow: 1;
+	background: url("/assets/banners/login-1.jpg") center center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	order: 1;
+}
+
+.login-img2 {
+	flex-grow: 1;
+	min-height: 0;
+	order: 2;
+
+	h1 {
+		text-align: center;
+		font-size: 30px;
+	}
+}
+
+.login-img3 {
+	flex-grow: 1;
+	height: 100%;
+	background: url("/assets/banners/login-2.jpg") center center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	order: 3;
+}
+
+.flex-container {
+	display: flex;
+	height: 500px;
+	justify-content: stretch;
+}
+
+$form-button-height:60px;
+
+$form-button-radius:100px;
+
+
+.form-input {
+	border-radius: $form-button-radius;
+	height: $form-button-height;
+	background-color: #7d7d7d26;
+	border: 0px;
+	padding-left: 20px;
+	font-size: 130%;
+
+}
+
+.form-input:focus {
+	outline: none !important;
+}
+
+.form-container {
+	margin-top: 20%;
+
+	h1 {
+		margin-bottom: 20%;
+	}
+}
+
+.form-submit {
+	background-color: #18afe6;
+	color: white;
+	font-weight: bold;
+	border-radius: $form-button-radius;
+	height: $form-button-height;
+	border: 0px
+}
+
+.frgt-container {
+	padding: 21px 0px 0px 37px !important;
+
+	p>a {
+		color: black;
+		font-size: 12px;
+		text-decoration: underline;
+		text-underline-position: under;
+		text-decoration-color: black;
+	}
+
+}
