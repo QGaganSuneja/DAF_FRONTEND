@@ -1,7 +1,4 @@
 import React from 'react';
-import Header from '../../components/header/index';
-import axios from 'axios';
-import { api } from '../../constants';
 import './index.scss';
 import LoginForm from '../../components/login/index';
 class Login extends React.Component {

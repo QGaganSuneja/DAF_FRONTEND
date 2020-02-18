@@ -24,7 +24,7 @@ class LoginForm extends React.Component {
 		};
 
 		this.props.login(payload).then(() => {
-			this.props.history.push('/chapter/1');
+			this.props.history.push('/module/introduction');
 		});
 		// this.props.history.push('/chapter/1');
 	}
@@ -42,7 +42,7 @@ class LoginForm extends React.Component {
 						{/* <label htmlFor="username"> Username</label> */}
 						<FormInput
 							type="text"
-							placeholder="Username"
+							placeholder="Email"
 							name="email"
 							value={this.state.email}
 							onChange={this.handleChange}
@@ -59,18 +59,25 @@ class LoginForm extends React.Component {
 							/>
 						)}
 						<div className="row no-gutters">
-							<input
-								type="submit"
-								value="Login"
-								className="btn btn-primary col-lg-6 form-submit"
-							/>
-							<div className="col-lg-6 frgt-container">
-								<p className="frgt-text">
-									<a href="#" onClick={this.forgotPassword}>
-										Forgot Password?
-									</a>
-								</p>
-							</div>
+							{!this.state.isForgotPassword && (
+								<input
+									type="submit"
+									value="Login"
+									className="btn btn-primary col-lg-6 form-submit"
+								/>
+							)}
+							{!this.state.isForgotPassword && (
+								<div className="col-lg-6 frgt-container">
+									<p className="frgt-text">
+										<span
+											style={{ cursor: 'pointer' }}
+											onClick={this.forgotPassword}
+										>
+											Forgot Password?
+										</span>
+									</p>
+								</div>
+							)}
 						</div>
 						{this.state.isForgotPassword && (
 							<div className="row no-gutters">

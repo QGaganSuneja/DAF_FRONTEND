@@ -2,9 +2,9 @@ import './header.scss';
 import { Link, withRouter } from 'react-router-dom';
 const Header = () => (
 	<nav className="navbar navbar-expand-sm " style={{ fontFamily: 'Rubik' }}>
-		<a className="navbar-brand logo-url-spacing" href="#">
+		<Link className="navbar-brand logo-url-spacing" to="/home">
 			<img src="../../assets/logo.png"></img>
-		</a>
+		</Link>
 		<ul className="navbar-nav color-black url-spacing">
 			<li className="nav-item">
 				<Link className="nav-link" to="/home">
@@ -22,7 +22,7 @@ const Header = () => (
 				</a>
 			</li>
 			<li className="nav-item">
-				<Link className="nav-link" to="/login">
+				<Link className="nav-link" to="/course">
 					THE COURSE
 				</Link>
 			</li>

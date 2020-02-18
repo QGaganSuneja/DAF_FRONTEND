@@ -9,6 +9,4 @@ export const login = userCredentials => dispatch =>
 // 	localStorage.setItem('DFA_USER_TOKEN', user.token);
 // 	dispatch({ type: USER_LOG_IN, userCredentials });
 // });};
-export const forgotPassword = userEmail = disaptch =>{
-	
-}
+export const forgotPassword = userEmail => disaptch => {};
