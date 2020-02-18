@@ -1,0 +1,29 @@
+.banner-image1 {
+    min-height: 100%;
+    flex-grow: 1;
+    background: url("/assets/banners/login-1.jpg") center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    order: 1;
+
+}
+
+.banner-text {
+    width: 50%;
+    background-color: #f4f4f3;
+    order: 2;
+    padding: 4%;
+    padding-top: 12.5%;
+
+    h5 {
+        color: #797b7c;
+    }
+
+    h3 {
+        color: #8b8d90
+    }
+
+    h1 {
+        color: #2e8ecd
+    }
+}

@@ -1,0 +1,73 @@
+.ch-container_1 {
+    background: url('../../../assets/backgrounds/introduction-background.png') center center;
+    padding: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ch-container_2 {
+    background: url('../../../assets/chapters/1/module-1-background.jpg') center center;
+    padding: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ch-container_3 {
+    background: url('../../../assets/chapters/2/module-2-background.jpg') center center;
+    padding: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ch-container__section {
+    background-color: #ffffffc7;
+    font-weight: bold;
+    padding: 20px 180px 44px 180px;
+
+    h3 {
+        text-align: left;
+        color: #534e4ef2;
+    }
+}
+
+.ch-super-container {
+    position: relative;
+    font-family: Rubik;
+}
+
+.text-black {
+    font-weight: normal;
+
+    p {
+        line-height: 25px;
+    }
+}
+
+.text-blue-bold {
+    color: #18afe6;
+    line-height: 1.5px;
+    font-weight: bold;
+}
+
+.text-blue-light {
+    color: #18afe6;
+    line-height: 1.5px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.padding-t-10 {
+    padding-top: 10px
+}
+
+.list-circle {
+    margin-left: 2em;
+    list-style-type: disc;
+}
+
+.padding-20 {
+    padding: 20px
+}
