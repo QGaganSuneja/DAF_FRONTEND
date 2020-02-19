@@ -144,7 +144,7 @@ class Module2 extends React.Component {
 							<div className="carousel-item">
 								<Heading
 									isUp={true}
-									heading="20th Anniversary Talk by Sant Rajinder Singh Ji Maharaj atTalkatora Video"
+									heading="20th Anniversary Talk by Sant Rajinder Singh Ji Maharaj at Talkatora Video"
 								></Heading>
 
 								<div style={{ padding: '10% 0% 0% 0%', textAlign: 'center' }}>

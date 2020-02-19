@@ -152,6 +152,22 @@ a {
 	color: black;
 }
 
+.flex-container {
+	display: flex;
+}
+
+.flex-base-25 {
+	flex-basis: 25%;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.justify-space {
+	justify-content: space-around;
+}
+
 @font-face {
 	font-family: Rubik;
 	src: url('../assets/fonts_and_logo/rubik/Rubik-Regular.ttf') format('truetype');

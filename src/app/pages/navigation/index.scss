@@ -27,3 +27,14 @@
         color: #2e8ecd
     }
 }
+
+.banner {
+    background: url("/assets/blue-banner-footter.png") center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.navigation-card {
+    height: 100px;
+    flex-grow: 1;
+}
