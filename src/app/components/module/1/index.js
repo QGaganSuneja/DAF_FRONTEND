@@ -56,11 +56,22 @@ class Module1 extends React.Component {
 				<div className="ch-container__section">
 					<h3>Module 1</h3>
 
-					<a className="carousel-control-prev" href="#demo" data-slide="prev">
-						<span className="carousel-control-prev-icon"></span>
+					<a
+						className="carousel-control-prev"
+						style={{ height: '40px', width: '200px', top: '50%' }}
+						href="#demo"
+						data-slide="prev"
+					>
+						<div className="carousel-previous-icon"></div>
 					</a>
-					<a className="carousel-control-next" href="#demo" data-slide="next">
-						<span className="carousel-control-next-icon"></span>
+
+					<a
+						className="carousel-control-next"
+						style={{ height: '40px', width: '200px', top: '50%' }}
+						href="#demo"
+						data-slide="next"
+					>
+						<span className="carousel-next-icon"></span>
 					</a>
 					<div id="demo" className="carousel slide" data-interval="false">
 						<div className="carousel-inner">

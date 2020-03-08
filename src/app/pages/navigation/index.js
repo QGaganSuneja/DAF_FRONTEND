@@ -1,6 +1,8 @@
 import './index.scss';
 import BigPlayButton from 'video-react/lib/components/BigPlayButton';
 const Navigation = () => {
+	const braceOpen = '{';
+	const braceClose = '}';
 	return (
 		<div style={{ fontFamily: 'Rubik' }}>
 			<div className="flex">
@@ -41,20 +43,51 @@ const Navigation = () => {
 			<div className="ch-super-container">
 				<div
 					className="flex-container flex-wrap justify-space"
+					ytr485ti
 					style={{ padding: '50px' }}
 				>
-					<div className="navigation-card flex-base-25"></div>
-					<div className="navigation-card flex-base-25"></div>
-					<div className="navigation-card flex-base-25"></div>
-					<div className="navigation-card flex-base-25"></div>
-					<div className="navigation-card flex-base-25"></div>
-					<div className="navigation-card flex-base-25"></div>
-					<div className="navigation-card flex-base-25"></div>
-					<div className="navigation-card flex-base-25"></div>
-					<div className="navigation-card flex-base-25"></div>
-					<div className="navigation-card flex-base-25"></div>
-					<div className="navigation-card flex-base-25"></div>
-					<div className="navigation-card flex-base-25"></div>
+					<div className="navigation-card flex-base-25">
+						<p>Philosophy &amp; purpose of Spiritual Curriculum </p>
+					</div>
+					<div className="navigation-card flex-base-25">
+						<p>Introduction to Darshan Academy</p>
+					</div>
+					<div className="navigation-card flex-base-25">
+						<p>Introduction to Sant Rajinder Singh Ji Maharaj</p>
+					</div>
+					<div className="navigation-card flex-base-25">
+						<p>Introduction to Meditation</p>
+					</div>
+					<div className="navigation-card flex-base-25">
+						<p>Key Priciples of Spirituality</p>
+					</div>
+					<div className="navigation-card flex-base-25">
+						<p>Introduction to Vegitarian Diet</p>
+					</div>
+					<div className="navigation-card flex-base-25">
+						<p>
+							Spiritual Curriculum for pre primary {braceOpen} Level 0 1 and 2{' '}
+							{braceClose}
+						</p>
+					</div>
+					<div className="navigation-card flex-base-25">
+						<p>Spiritual Curriculum Grades 1 to 8</p>
+					</div>
+					<div className="navigation-card flex-base-25">
+						<p>Spiritual Curriculum Grades 9 to 12</p>
+					</div>
+					<div className="navigation-card flex-base-25">
+						<p>Evaluation</p>
+					</div>
+					<div className="navigation-card flex-base-25">
+						<p>Creating a Welcoming Environment</p>
+					</div>
+					<div className="navigation-card flex-base-25">
+						<p>Teaching Techniques</p>
+					</div>
+					<div className="navigation-card flex-base-25">
+						<p>Lessons by Teachers</p>
+					</div>
 				</div>
 			</div>
 		</div>

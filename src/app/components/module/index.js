@@ -5,6 +5,10 @@ import { PrimaryButton } from '../buttons';
 import { VideoPlayer } from '../video-player/index';
 import Module1 from './1/index';
 import Module2 from './2/index';
+import Module3 from './3/index';
+import Module4 from './4/index';
+import Module5 from './5/index';
+import Module6 from './6/index';
 export class Introduction extends React.Component {
 	constructor(props) {
 		super(props);
@@ -29,10 +33,10 @@ export class Introduction extends React.Component {
 					<h3>Introduction Training Online Course</h3>
 
 					<a className="carousel-control-prev" href="#demo" data-slide="prev">
-						<span className="carousel-control-prev-icon"></span>
+						<span className="carousel-previous-icon"></span>
 					</a>
 					<a className="carousel-control-next" href="#demo" data-slide="next">
-						<span className="carousel-control-next-icon"></span>
+						<span className="carousel-next-icon"></span>
 					</a>
 					<div id="demo" className="carousel slide" data-interval="false">
 						<div className="carousel-inner">
@@ -294,6 +298,18 @@ class Module extends React.Component {
 				break;
 			case '2':
 				ModuleToRender = Module2;
+				break;
+			case '3':
+				ModuleToRender = Module3;
+				break;
+			case '4':
+				ModuleToRender = Module4;
+				break;
+			case '5':
+				ModuleToRender = Module5;
+				break;
+			case '6':
+				ModuleToRender = Module6;
 				break;
 			default:
 				break;

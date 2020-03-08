@@ -10,7 +10,7 @@ class Login extends React.Component {
 			<div style={{ fontFamily: 'Rubik' }}>
 				<div
 					className="flex-container"
-					style={{ height: '500px', justifyContent: stretch }}
+					style={{ height: '500px', justifyContent: 'stretch' }}
 				>
 					<div className="login-img1">
 						{/* <img src="../../assets/banners/login-1.jpg" /> */}
