@@ -3,12 +3,17 @@ import './module.scss';
 import Heading from '../heading';
 import { PrimaryButton } from '../buttons';
 import { VideoPlayer } from '../video-player/index';
-import Module1 from './1/index';
-import Module2 from './2/index';
-import Module3 from './3/index';
-import Module4 from './4/index';
-import Module5 from './5/index';
-import Module6 from './6/index';
+import Module1 from './1';
+import Module2 from './2';
+import Module3 from './3';
+import Module4 from './4';
+import Module5 from './5';
+import Module6 from './6';
+import Module8 from './8';
+import Module9 from './9';
+import Module10 from './10';
+import Module11 from './11';
+import Module7 from './7';
 export class Introduction extends React.Component {
 	constructor(props) {
 		super(props);
@@ -310,6 +315,21 @@ class Module extends React.Component {
 				break;
 			case '6':
 				ModuleToRender = Module6;
+				break;
+			case '7':
+				ModuleToRender = Module7;
+				break;
+			case '8':
+				ModuleToRender = Module8;
+				break;
+			case '9':
+				ModuleToRender = Module9;
+				break;
+			case '10':
+				ModuleToRender = Module10;
+				break;
+			case '11':
+				ModuleToRender = Module11;
 				break;
 			default:
 				break;

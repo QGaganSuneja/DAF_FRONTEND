@@ -1,8 +1,12 @@
 import './button.scss';
 
 export const PrimaryButton = props => {
+	let classes = 'dfa-btn dfa-btn-primary';
+	if (props.className) {
+		classes = props.className;
+	}
 	return (
-		<button onClick={props.OnClick} className="dfa-btn dfa-btn-primary">
+		<button onClick={props.OnClick} className={classes}>
 			{props.btn_text}
 		</button>
 	);

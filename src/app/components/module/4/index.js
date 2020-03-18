@@ -209,25 +209,23 @@ class Module4 extends React.Component {
 										less stress and creates a peaceful atmosphere.
 									</p>
 								</div>
-								<button
+								<PrimaryButton
 									OnClick={e => {
 										this.playVideo(e, '2');
 									}}
 									className="dfa-btn dfa-btn-danger"
-								>
-									{secondVideo.btn_text}
-								</button>
+									btn_text={secondVideo.btn_text}
+								></PrimaryButton>
 								<br />
 								<br />
 								<br />
-								<button
+								<PrimaryButton
 									OnClick={e => {
-										this.playVideo(e, '2');
+										this.playVideo(e, '3');
 									}}
 									className="dfa-btn dfa-btn-danger"
-								>
-									{'Activity'}
-								</button>
+									btn_text={'Activity'}
+								></PrimaryButton>
 								<div className="text-black">
 									<p>
 										Read the Meditation Instructions as given by Sant Rajinder
